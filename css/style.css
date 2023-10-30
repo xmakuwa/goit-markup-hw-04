@@ -46,6 +46,15 @@ ol {
 .first-section {
 	padding: 188px 0;
 }
+.first-section-background {
+display: flex;
+background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/peopleoffice.jpg);
+background-size: cover;
+background-position: center; 
+background-repeat: no-repeat;
+max-width: 1440px;
+margin: 0 auto;
+}
 .second-section {
 	padding: 120px 0;
 }
@@ -57,6 +66,9 @@ ol {
 }
 .header {
 	border-bottom: 1px solid var(--cornflower);
+}
+.header-shadow{
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .header-lay {
 	display: flex;
@@ -295,6 +307,9 @@ ol {
 	background-color: var(--bg-color);
 	flex-basis: calc((100% - 72px) / 4);
 	border-radius: 0px 0px 4px 4px;
+.member-shadow {
+box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);	
+}
 }
 .member-value {
 	color: var(--default-hder-color);
@@ -542,5 +557,5 @@ ol {
 	background-color: var(--social-media-hvr);
 }
 .social-media-svg {
-	fiill: var(--default-ftr-color);
+	fill: var(--default-ftr-color);
 }
